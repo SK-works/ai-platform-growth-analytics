@@ -37,37 +37,32 @@ This project simulates the work of a product analyst embedded in a growth team, 
 
 ---
 
-## Project Structure
-
-```
 ai-platform-growth-analytics/
 │
 ├── README.md
 │
 ├── PRD/
-│   └── AI_Platform_Growth_PRD_v2.docx     # Full product requirements document
+│   └── AI_Platform_Growth_PRD_v2.pdf          # Full product requirements document
 │
 ├── data/
-│   ├── generate_data.py                    # Synthetic data generator
-│   ├── users.csv                           # 10,000 users with segments + A/B variants
-│   ├── sessions.csv                        # 98,727 sessions
-│   ├── subscriptions.csv                   # 261 subscription events
-│   └── events_final.csv                    # 98,581 events with all properties
+│   ├── generate_data.py                       # Synthetic data generator
+│   ├── users.csv                              # 10,000 users with segments + A/B variants
+│   ├── sessions.csv                           # 98,727 sessions
+│   ├── subscriptions.csv                      # 261 subscription events
+│   └── events_final.csv                       # 98,581 events with all properties
 │
 ├── sql/
-│   └── sql_queries_bigquery.sql            # 18 documented queries — BigQuery syntax
+│   └── sql_queries_bigquery.sql               # 18 documented queries — BigQuery syntax
 │
 ├── dashboards/
-│   └── screenshots/                        # Mixpanel + Looker Studio dashboard screenshots
+│   └── screenshots/                           # Mixpanel + Looker Studio dashboard screenshots
 │
 ├── deck/
-│   └── AI_Platform_Growth_Insights_Deck.pptx   # 10-slide insights presentation
+│   └── AI_Platform_Growth_Insights_Deck.pptx  # 10-slide insights presentation
 │
 └── scripts/
-    └── mixpanel_import_final.py            # Mixpanel API import script
+    └── mixpanel_import_final.py               # Mixpanel API import script
 ```
-
----
 
 ## The Data
 
