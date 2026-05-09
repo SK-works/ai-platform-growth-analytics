@@ -37,12 +37,16 @@ This project simulates the work of a product analyst embedded in a growth team, 
 
 ---
 
+## Project Structure
+
+```
 ai-platform-growth-analytics/
 │
 ├── README.md
 │
 ├── PRD/
-│   └── AI_Platform_Growth_PRD_v2.pdf          # Full product requirements document
+│   ├── AI_Platform_Growth_PRD_v2.pdf          # Full product requirements document
+│   └── AI_Platform_Growth_PRD_.pdf            # Initial product requirements document
 │
 ├── data/
 │   ├── generate_data.py                       # Synthetic data generator
@@ -63,6 +67,8 @@ ai-platform-growth-analytics/
 └── scripts/
     └── mixpanel_import_final.py               # Mixpanel API import script
 ```
+
+---
 
 ## The Data
 
